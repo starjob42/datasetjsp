@@ -1,7 +1,7 @@
 import json
 
 # Load the data card
-with open('./train_data/jssp_llm_format_120k_datacard.json', 'r') as file:
+with open('jssp_llm_format_120k_datacard.json', 'r') as file:
     data_card = json.load(file)
 
 # Accessing basic information
