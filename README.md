@@ -3,6 +3,7 @@
 ## General Statistics
 - **total_samples**: 120000
 - **unique_sizes**: 50
+- **data_size_of_group_size_of_instances**: 2400
 - **average_jobs**: 8.24
 - **average_machines**: 5.64
 - **average_makespan**: 1434.3538358961537
