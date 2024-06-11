@@ -12,25 +12,25 @@
 - **max_makespan**: 9852.0
 
 ## Size Distribution
-![Size Distribution](data_card_plots/size_distribution.png)
+![Size Distribution](plots/size_distribution.png)
 
 ## Average Makespan per Size
-![Average Makespan per Size](data_card_plots/average_makespan_per_size.png)
+![Average Makespan per Size](plots/average_makespan_per_size.png)
 
 ## Variance of Makespan per Size
-![Variance of Makespan per Size](data_card_plots/variance_makespan_per_size.png)
+![Variance of Makespan per Size](plots/variance_makespan_per_size.png)
 
 ## Median Makespan per Size
-![Median Makespan per Size](data_card_plots/median_makespan_per_size.png)
+![Median Makespan per Size](plots/median_makespan_per_size.png)
 
 ## Minimum and Maximum Makespan per Size
-![Min and Max Makespan per Size](data_card_plots/min_max_makespan_per_size.png)
+![Min and Max Makespan per Size](plots/min_max_makespan_per_size.png)
 
 ## Correlations
 - **correlation_jobs_makespan**: 0.5658973838191064
 - **correlation_machines_makespan**: 0.5480905138716899
 
 ## Histograms
-![Histogram of Jobs and Machines](data_card_plots/jobs_machines_histogram.png)
+![Histogram of Jobs and Machines](plots/jobs_machines_histogram.png)
 
-![Histogram of Makespan](data_card_plots/makespan_histogram.png)
+![Histogram of Makespan](plots/makespan_histogram.png)
