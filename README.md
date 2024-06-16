@@ -41,6 +41,9 @@ python read_datacard.py
 
 ```
 
+If git lfs does not work, additionlly the dataset can be downloaded from google drive 
+([google drive](https://drive.google.com/drive/folders/1EChWtjhYQSWMdMiGEm4t5GGtB_jKpbPC?usp=sharing))
+
 # JSSP LLM Format Dataset
 
 ## Dataset Overview
