@@ -3,7 +3,7 @@
 
 # Cloning the repository and downloading the dataset
 
-This repository contains large files managed by Git Large File Storage (LFS). Follow the steps below to ensure you can properly clone the repository and access the large files.
+This repository contains the dataset named "jssp_llm_format_120k.json" by Git Large File Storage (LFS). Follow the steps below to ensure you can properly clone the repository and access the large files.
 
 ## Prerequisites
 
@@ -18,25 +18,23 @@ Ensure Git LFS is installed on your system. If it is not already installed, you 
 
 ```sh
 git lfs install
+``` 
 
 ### Step 2: Clone the Repository
-
+```sh
 git clone https://github.com/starjob42/datasetjsp.git
 cd datasetjsp
+```
 
 Step 3: Pull LFS Objects
 After cloning the repository, ensure Git LFS pulls the large files:
 
-sh
-Copy code
+```sh
 git lfs pull
+```
 
-
-
-
-
-
-# Job Shop Scheduling Dataset Statistics
+# Job Shop Scheduling Dataset for LLM
+# General Statistics
 
 ## General Statistics
 - **total_samples**: 120000
