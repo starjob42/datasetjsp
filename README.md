@@ -31,7 +31,58 @@ After cloning the repository, ensure Git LFS pulls the large files:
 
 ```sh
 git lfs pull
+
 ```
+
+# JSSP LLM Format Dataset
+
+## Dataset Overview
+
+**Dataset Name:** jssp_llm_format_120k.json
+**Number of Entries:** 120,000  
+**Number of Fields:** 5  
+
+## Fields Description
+
+1. **num_jobs**
+   - **Type:** int64
+   - **Number of Unique Values:** 12
+   
+2. **num_machines**
+   - **Type:** int64
+   - **Number of Unique Values:** 12
+   
+3. **prompt_jobs_first**
+   - **Type:** object
+   - **Number of Unique Values:** 120,000
+   
+4. **prompt_machines_first**
+  - **Type:** object
+  - **Number of Unique Values:** 120,000
+
+5. **output**
+   - **Type:** object
+  - **Number of Unique Values:** 120,000
+   - **Description:** Description of this field should be included here.
+
+## Usage
+
+This dataset can be used for training LLMs for job-shop scheduling problems (JSSP). Each entry provides information about the number of jobs, the number of machines, and other relevant details formatted in natural language.
+
+## License
+
+This dataset is licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). For more details, see the [license description](https://creativecommons.org/licenses/by-sa/4.0/).
+
+## Citation
+
+If you use this dataset in your research, please cite it as follows:
+
+@dataset{jssp_for_llm,
+author = {Anonymous},
+title = {JSSP LLM Format Dataset},
+year = {2024},
+url = {https://github.com/your_repository},
+}
 
 # Job Shop Scheduling Dataset for LLM
 # General Statistics
@@ -48,6 +99,10 @@ git lfs pull
 - **min_makespan**: 5.0
 - **max_makespan**: 9852.0
 
+- ## Correlations
+- **correlation_jobs_makespan**: 0.5658973838191064
+- **correlation_machines_makespan**: 0.5480905138716899
+
 ## Size Distribution
 ![Size Distribution](plots/size_distribution.png)
 
@@ -63,9 +118,7 @@ git lfs pull
 ## Minimum and Maximum Makespan per Size
 ![Min and Max Makespan per Size](plots/min_max_makespan_per_size.png)
 
-## Correlations
-- **correlation_jobs_makespan**: 0.5658973838191064
-- **correlation_machines_makespan**: 0.5480905138716899
+
 
 ## Histograms
 ![Histogram of Jobs and Machines](plots/jobs_machines_histogram.png)
