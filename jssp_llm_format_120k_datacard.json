@@ -1,5 +1,5 @@
 {
-    "Dataset Name": "jssp_llm_format_ours120k_no_path.json",
+    "Dataset Name": "jssp_llm_format_120k.json",
     "Number of Entries": 120000,
     "Number of Fields": 5,
     "Fields": {
