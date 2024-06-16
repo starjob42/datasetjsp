@@ -90,9 +90,11 @@ If you use this dataset in your research, please cite it as follows:
 
 @dataset{jssp_for_llm,
 author = {Anonymous},
-title = {JSSP LLM Format Dataset},
+title = {LLMs can Schedule},
 year = {2024},
 url = {https://github.com/starjob42/datasetjsp.git},
+note = {Submitted to NeurIPS 2024 Datasets and Benchmarks}
+
 }
 
 ```
