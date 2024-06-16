@@ -33,6 +33,13 @@ After cloning the repository, ensure Git LFS pulls the large files:
 git lfs pull
 
 ```
+Step 4: Viewing the DataCard
+To view the datacard please run the following code:
+
+```sh
+python read_datacard.py
+
+```
 
 # JSSP LLM Format Dataset
 
@@ -63,8 +70,7 @@ git lfs pull
 5. **output**
    - **Type:** object
   - **Number of Unique Values:** 120,000
-   - **Description:** Description of this field should be included here.
-
+  - 
 ## Usage
 
 This dataset can be used for training LLMs for job-shop scheduling problems (JSSP). Each entry provides information about the number of jobs, the number of machines, and other relevant details formatted in natural language.
@@ -77,17 +83,20 @@ This dataset is licensed under the Creative Commons Attribution-ShareAlike 4.0 I
 
 If you use this dataset in your research, please cite it as follows:
 
+```sh
+
 @dataset{jssp_for_llm,
 author = {Anonymous},
 title = {JSSP LLM Format Dataset},
 year = {2024},
-url = {https://github.com/your_repository},
+url = {https://github.com/your_repository](https://github.com/starjob42/datasetjsp.git},
 }
+
+```
 
 # Job Shop Scheduling Dataset for LLM
 # General Statistics
 
-## General Statistics
 - **total_samples**: 120000
 - **unique_sizes**: 50
 - **data_size_of_group_size_of_instances**: 2400
