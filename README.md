@@ -1,3 +1,41 @@
+
+
+
+# Cloning the repository and downloading the dataset
+
+This repository contains large files managed by Git Large File Storage (LFS). Follow the steps below to ensure you can properly clone the repository and access the large files.
+
+## Prerequisites
+
+- Git
+- Git LFS (download and install from [Git LFS website](https://git-lfs.github.com/))
+
+## Setup Instructions
+
+### Step 1: Install Git LFS
+
+Ensure Git LFS is installed on your system. If it is not already installed, you can install it by running:
+
+```sh
+git lfs install
+
+### Step 2: Clone the Repository
+
+git clone https://github.com/starjob42/datasetjsp.git
+cd datasetjsp
+
+Step 3: Pull LFS Objects
+After cloning the repository, ensure Git LFS pulls the large files:
+
+sh
+Copy code
+git lfs pull
+
+
+
+
+
+
 # Job Shop Scheduling Dataset Statistics
 
 ## General Statistics
