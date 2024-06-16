@@ -41,7 +41,7 @@ python read_datacard.py
 
 ```
 
-If git lfs does not work, additionlly the dataset can be downloaded from
+If Git LFS does not work, the dataset can also be downloaded from:
 ([google drive](https://drive.google.com/drive/folders/1EChWtjhYQSWMdMiGEm4t5GGtB_jKpbPC?usp=sharing))
 
 # JSSP LLM Format Dataset
@@ -92,7 +92,7 @@ If you use this dataset in your research, please cite it as follows:
 author = {Anonymous},
 title = {JSSP LLM Format Dataset},
 year = {2024},
-url = {https://github.com/your_repository](https://github.com/starjob42/datasetjsp.git},
+url = {https://github.com/starjob42/datasetjsp.git},
 }
 
 ```
