@@ -72,8 +72,8 @@ If Git LFS does not work, the dataset can also be downloaded from:
 
 5. **output**
    - **Type:** object
-  - **Number of Unique Values:** 120,000
-  - 
+   - **Number of Unique Values:** 120,000
+   
 ## Usage
 
 This dataset can be used for training LLMs for job-shop scheduling problems (JSSP). Each entry provides information about the number of jobs, the number of machines, and other relevant details formatted in natural language.
