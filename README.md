@@ -51,8 +51,6 @@ Follow these instructions to create a virtual environment and install the necess
 
 ## Step 1: Create a Virtual Environment
 
-First, you'll need to create a virtual environment. This helps in managing dependencies for your project separately from other projects.
-
 ```bash
 python3 -m venv llm_env
 ```
@@ -73,6 +71,18 @@ source llm_env/bin/activate
 # Install the Required Libraries
 ```bash
 pip install -r requirements.txt
+```
+
+# Training
+Make sure to pass correct path to the trainig dataset. The default path is './jssp_llm_format_120k.json'
+
+```bash
+python train_phi3_lora_jssp.py
+```
+To infer use the following command, which uses 'test_2000.json' testing dataset
+
+```bash
+python infer_phi3.py
 ```
 
 # JSSP LLM Format Dataset
