@@ -44,6 +44,37 @@ python read_datacard.py
 If Git LFS does not work, the dataset can also be downloaded from:
 ([google drive](https://drive.google.com/drive/folders/1EChWtjhYQSWMdMiGEm4t5GGtB_jKpbPC?usp=sharing))
 
+
+# Setting Up Your Python Environment
+
+Follow these instructions to create a virtual environment and install the necessary libraries.
+
+## Step 1: Create a Virtual Environment
+
+First, you'll need to create a virtual environment. This helps in managing dependencies for your project separately from other projects.
+
+```bash
+python3 -m venv llm_env
+```
+
+Activate the Virtual Environment
+After creating the virtual environment, activate it using the following command:
+
+On Windows
+```bash
+.\llm_env\Scripts\activate
+```
+
+On macOS and Linux
+```bash
+source llm_env/bin/activate
+```
+
+# Install the Required Libraries
+```bash
+pip install -r requirements.txt
+```
+
 # JSSP LLM Format Dataset
 
 ## Dataset Overview
