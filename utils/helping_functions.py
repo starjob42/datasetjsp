@@ -27,11 +27,16 @@ def write_csv(results, filename='llm_jssp_results.csv'):
         results (list): The list of results to write.
         filename (str, optional): The name of the output file. Defaults to 'llm_jssp_results.csv'.
     """
-    with open(filename, mode='w', newline='') as file:
-        writer = csv.writer(file)
-        writer.writerow(['num_jobs','num_machines', 'best_gap', 'is_feasible_list', 'gap_list', 'time_list', 'llm_makespan_list' , 'calculated_makespan_list', 'peft_model_text_output'])
-        for result in results:
-            writer.writerow(result)
+    try:
+        os.makedirs(os.path.dirname(filename), exist_ok=True)
+        with open(filename, mode='w', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerow(['num_jobs','num_machines', 'best_gap', 'is_feasible_list', 'gap_list', 'time_list', 'llm_makespan_list' , 'calculated_makespan_list', 'peft_model_text_output'])
+            for result in results:
+                writer.writerow(result)
+        print(f"Results successfully saved to {filename}")
+    except Exception as e:
+        print(f"Failed to write CSV file {filename}. Error: {e}")
 
 
 def save_results(results, start, num_solutions, temperature, top_p, top_k):
