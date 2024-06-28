@@ -79,6 +79,9 @@ Make sure to pass correct path to the trainig dataset. The default path is './js
 ```bash
 python train_phi3_lora_jssp.py
 ```
+# Inference
+Please download and unzip the checkpoint-1750.zip and put the entire foder inside the checkpoints directory from ([google drive](https://drive.google.com/file/d/1Ik86y_0ls-yvzTM5Fx6lq5Lu8PJCr-dz/view?usp=sharing)). The checkpoints directory should look like this afterwards: ./checkpoints/checkpoint-1750/
+. 
 To infer use the following command, which uses 'test_2000.json' testing dataset
 
 ```bash
