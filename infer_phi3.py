@@ -30,7 +30,7 @@ tokenizer.pad_token_id = tokenizer.convert_tokens_to_ids(tokenizer.pad_token)
 tokenizer.padding_side = 'left'
 
 
-new_adapter_path = "./peft-phi3-jssp_orig_like_chat_dense_256_large_data_true_b4_/checkpoint-1750"
+new_adapter_path = "./checkpoints/checkpoint-1750"
 
 finetuned_model = PeftModel.from_pretrained(model,
                                   new_adapter_path,
