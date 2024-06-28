@@ -103,10 +103,10 @@ def main_loop(start, end, model, tokenizer, dataset, num_solutions, temperature,
 
 start = 0
 end = len(dataset['train'])
-num_solutions = 20
+num_solutions = 10
 top_k =  50
-temperature =  0.2
-top_p =  0.8
+temperature =  1
+top_p =  0.95
 max_len = 400000
 
 main_loop(start, end, model, tokenizer, dataset, num_solutions, temperature, top_k, top_p, max_len)
