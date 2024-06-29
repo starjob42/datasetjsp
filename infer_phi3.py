@@ -76,13 +76,11 @@ def main_loop(start, end, model, tokenizer, dataset, num_solutions, temperature,
                 problem_in_matrix_form = dataset['train'][index]['matrix']
 
                 n, m, inst_for_ortools, real_makespan, sol, machine_to_tasks = read_matrix_form_jssp(matrix_content=problem_in_matrix_form)
-                if n ==3 and m ==3:
+                
 
-                    best_gap, is_feasible_list, gap_list, llm_makespan_list,calculated_makespan_list, time_list, peft_model_text_output = generate_multiple_solutions(
+                best_gap, is_feasible_list, gap_list, llm_makespan_list,calculated_makespan_list, time_list, peft_model_text_output = generate_multiple_solutions(
                         model, tokenizer, jssp_problem, inst_for_ortools, real_makespan, dev_map=dev_map,sample=True, num_solutions=num_solutions,top_k=top_k, top_p=top_p,temperature=temperature,max_len=max_len)
 
-                else:
-                    continue
 
                 results.append((n, m, best_gap, is_feasible_list, gap_list, time_list, llm_makespan_list , calculated_makespan_list, peft_model_text_output))
             
