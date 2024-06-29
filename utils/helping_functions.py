@@ -1,4 +1,6 @@
 import csv 
+import os
+
 
 def print_number_of_trainable_model_parameters(model):
     """
