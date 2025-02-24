@@ -42,7 +42,7 @@ python read_datacard.py
 ```
 
 If Git LFS does not work, the dataset can also be downloaded from:
-([google drive]([https://drive.google.com/file/d/14N4yhccMMKY9Pove2GYCKb6joLsOewRN/view?usp=sharing])
+([google drive](https://drive.google.com/file/d/14N4yhccMMKY9Pove2GYCKb6joLsOewRN/view?usp=sharing)
 
 
 # Setting Up Your Python Environment
